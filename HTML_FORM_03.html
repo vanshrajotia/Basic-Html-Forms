@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML_FORM_03</title>
+  </head>
+  <body>
+    <h2>Complex Form</h2>
+    <form action="">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name : </label>
+        <input id="name" type="text" />
+     
+        <label for="email">Email : </label>
+        <input id="email" type="email" />
+
+        <label for="phone">Phone : </label>
+        <input id="phone" type="tel" />
+        
+        <label for="date">Date of Birth : </label>
+        <input type="date" name="date" id="date">
+
+        <label for="gander">Gender : </label>
+        <label for="radio1">Male</label>
+        <input type="radio" name="gender" id="radio1">
+
+        <label for="radio2">Female</label>
+        <input type="radio" name="gender" id="radio2">
+
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="country1">India</option>
+            <option value="country2">USA</option>
+            <option value="country2">UK</option>
+        </select>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>
+            <label for="address">Address Street</label>
+            <input type="text" id="address">
+
+            <label for="city">City</label>
+            <input type="text" id="city">
+
+            <label for="state">State</label>
+            <input type="text" id="state">
+
+            <label for="code">Zip Code</label>
+            <input type="number" id="code">
+        </legend>
+      </fieldset>
+
+      <fieldset>
+        <legend>Other Information</legend>
+        <label for="comment">Comments</label>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+
+        <label for="agree">I agree to the terms and services </label>
+        <input type="checkbox" name="agree" id="agree">
+      </fieldset>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
